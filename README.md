@@ -1,71 +1,80 @@
-# Sales-And-Customer-DashBoard-Using-Tableau
-Interactive Tableau dashboard using Superstore data to analyze sales and customer trends. Highlights key metrics like revenue, profit, regional performance, top products, and customer segments. Demonstrates skills in data visualization, dashboard design, and business intelligence for data-driven insights.
+# 🏠 Home Appliance Sales Dashboard
+
+An interactive sales and customer analytics dashboard built with **Tableau**, powered by structured home appliance sales data.
+
+🔗 **[View Live Dashboard](#)**
+
+---
+
+## 📊 Project Overview
+
+- Built an interactive dashboard using **Tableau** based on home appliance sales data
+- Provides insights into **sales performance**, **customer behavior**, and **product trends**
+- Uses structured relational datasets for accurate and meaningful analysis
+
+---
+
+## 📈 Dashboard Features
+
+<img width="1919" height="1030" alt="Screenshot 2026-03-27 075135" src="https://github.com/user-attachments/assets/d75500d0-7d39-474c-b474-c3cc55d7a0cc" />
 
 
-## 📊 Tableau Dashboard
+### 🔹 Sales Dashboard
+<img width="1919" height="1029" alt="Screenshot 2026-03-27 075237" src="https://github.com/user-attachments/assets/3a9dffbc-2efa-4374-9e99-083016f62a48" />
 
-🔗 View Dashboard:https://public.tableau.com/app/profile/sanjai.u/viz/PROJECTSALES_17739920170510/SALESDASHBOARD?publish=yes
 
-🏠 Home Appliance Sales Dashboard (Tableau)
-📊 Project Overview
-This project presents an interactive sales and customer dashboard built using Tableau, based on home appliance sales data.
+- Total Sales, Profit, and Quantity KPIs
+- Monthly and Yearly Sales Trends
+- Category-wise and Product-wise Performance
+- Regional Sales Distribution
 
-The dashboard provides insights into sales performance, customer behavior, and product trends using structured datasets.
+### 🔹 Customer Dashboard
+<img width="1919" height="1028" alt="Screenshot 2026-03-27 075326" src="https://github.com/user-attachments/assets/e2c9b510-d69c-429a-9570-bae1ab661989" />
 
-🗂️ Dataset Description
-The project uses relational data organized into the following tables:
 
-Customer – Customer details (ID, name, segment, etc.)
+- Customer Segmentation Analysis
+- Purchase Behavior Insights
+- Top Customers by Revenue
+- Order Frequency and Trends
 
-Product – Product information (category, sub-category, pricing)
+### 📅 Time-Based Analysis
+- Monthly trends to track short-term performance
+- Yearly trends for long-term growth analysis
+- Seasonal sales pattern identification
 
-Orders – Transactional sales data (order date, quantity, profit, sales)
+---
 
-Location – Geographic data (city, state, region)
+## 🗂️ Dataset Description
 
-📈 Dashboard Features
-🔹 Sales Dashboard
-Total Sales, Profit, and Quantity
+| Table | Description |
+|---|---|
+| `Customer` | Customer ID, name, segment details |
+| `Product` | Category, sub-category, pricing info |
+| `Orders` | Order date, quantity, sales, profit |
+| `Location` | City, state, and regional data |
 
-Monthly and Yearly Sales Trends
+---
 
-Category-wise and Product-wise performance
+## 🛠️ Tools & Technologies
 
-Regional sales distribution
+- 📊 **Tableau** – Dashboard creation and visualization
+- 🗄️ **SQL / Excel** – Data preparation and structuring
+- 🧮 **Data Modeling** – Table relationships and joins
 
-🔹 Customer Dashboard
-Customer segmentation analysis
+---
 
-Purchase behavior insights
+## 🎯 Key Insights
 
-Top customers by revenue
+- Identified top-performing products and high-revenue regions
+- Tracked profit margins across categories to highlight underperformers
+- Revealed customer purchasing patterns and segment behavior
+- Enabled data-driven decisions for inventory and marketing strategy
 
-Order frequency and trends
+---
 
-📅 Time-Based Analysis
-Monthly trends to track short-term performance
+## 📁 Repository Structure
 
-Yearly trends for long-term growth analysis
-
-Seasonal sales patterns
-
-🛠️ Tools & Technologies
-📊 Tableau – Dashboard creation and visualization
-
-🗄️ SQL / Excel – Data preparation and structuring
-
-🧮 Data Modeling – Table relationships and joins
-
-🎯 Key Insights
-Identifies top-performing products and regions
-
-Tracks profit margins across categories
-
-Highlights customer purchasing patterns
-
-Helps in data-driven decision making
-
-📁 Repository Structure
+```
 ├── data/
 │   ├── customer.csv
 │   ├── product.csv
@@ -76,30 +85,4 @@ Helps in data-driven decision making
 ├── images/
 │   └── dashboard_preview.png
 └── README.md
-🚀 How to Use
-Download the repository
-
-Open the Tableau file (.twbx) using Tableau
-
-Explore the dashboards and interact with filters
-
-📌 Future Improvements
-Add real-time data integration
-
-Include forecasting models
-
-Enhance customer segmentation using advanced analytics
-
-🤝 Contributing
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
-📧 Contact
-For any queries or suggestions, feel free to connect.
-
-If you want, I can also:
-
-Create a GitHub repo name + description
-
-Generate a LinkedIn project post
-
-Help you add portfolio-ready screenshots
+```
