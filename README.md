@@ -2,7 +2,7 @@
 
 An interactive sales and customer analytics dashboard built with **Tableau**, powered by structured home appliance sales data.
 
-🔗 **[View Live Dashboard](#)**
+🔗 **[View Live Dashboard](#)https://public.tableau.com/app/profile/sanjai.u/viz/PROJECTSALES_17739920170510/HOME?publish=yes**
 
 ---
 
